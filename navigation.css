@@ -1,0 +1,37 @@
+a.home-nav-link:hover {
+	color: white;
+}
+
+.photos-nav-li:hover {
+  background-color: black;
+}
+
+nav {
+  background-color: teal;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  font-family: "Helvetica";
+  float: left;
+  background-color: green;
+  margin: 5px 5px 5px 5px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+a {
+  color: red;
+}
+
+li.larger:active {
+	margin: 5px 10px 5px 10px;
+	font-size: 25px;
+
+}
+
+/*When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right.*/
